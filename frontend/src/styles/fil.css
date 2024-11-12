@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    
+    min-height: 100vh;
+}
+.filter-wrapper {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.filter-title {
+   display: flex;
+    color: #333;
+    display: flex;
+   
+    gap: 10px;
+}
+
+.filter-container {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 1rem;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+    flex: 1 1 200px;
+}
+
+.filter-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+}
+
+.filter-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fill-search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fill-search .filter-button {
+    margin-top: 1.5rem !important;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.filter-button {
+    width: 10%;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:auto;
+
+}
+.filter-titledur {
+    display: flex;
+     color: #333;
+     display: flex;
+    
+     gap: 10px;
+ }
+
+.filter-button:hover {
+    background-color: #218838;
+}
+
+
+.filter-checkbox {
+    margin-top: 10%; /* Adjust as needed */
+}
+.filter-container label {
+    display: flex;
+    align-items: center; /* Centers checkbox and text vertically */
+    margin-bottom: 8px; /* Space between each checkbox item */
+    font-size: 1rem; /* Adjust label text size */
+}
+
+.filter-container input[type="checkbox"] {
+    margin-right: 8px; /* Space between checkbox and label text */
+}

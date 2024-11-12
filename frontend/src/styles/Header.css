@@ -1,0 +1,36 @@
+.header {
+    background-color: #2ede37;
+    color: white;
+    width: 100%; /* Make sure the header spans the full width */
+}
+
+.header-container {
+    margin: 0 auto; /* Center the header container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}

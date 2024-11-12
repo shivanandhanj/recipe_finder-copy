@@ -1,0 +1,115 @@
+.contact-form-container {
+    position: relative; 
+    margin: 1px auto;
+    padding: 2rem;
+    border-radius: 8px;
+    color: rgb(143, 114, 114); 
+  }
+  
+  .contact-form-total-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contact-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 26px;
+    color: #f81212;
+    position: relative; 
+    font-weight: bold;
+  }
+  
+  .success-message-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px); 
+    text-align: center; 
+    margin: 50px 0px;
+  }
+  
+  .contact-success-message {
+    color: #6d800b; 
+    font-size: 30px;
+    font-weight: bold; 
+    margin-top: 20px;
+    font-weight: 3rem;
+  }
+  
+  /* Form Elements */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  .contact-textarea{
+    width: 900px;
+  }
+  .contact-form-group {
+    margin-bottom: 1.5rem;
+    margin:10px 0;
+  }
+  
+  .contact-label {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #262525;
+  }
+  
+  /* Input and Textarea Styling */
+  .contact-input
+   {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* For a rectangular shape */
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .contact-input:focus {
+    outline: none;
+    border-color: #0b3a80;
+  }
+  
+  .contact-textarea {
+    resize: vertical;
+    height: 120px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* For a rectangular shape */
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  /* Submit Button */
+  .contact-submit-btn {
+    background-color: #0b1622;
+    color: #fff;
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 150px;
+    margin: 0 auto; /* Center the button */
+    display: block;
+  }
+  
+  .contact-submit-btn:hover {
+    background-color: #0056b3;
+  }
